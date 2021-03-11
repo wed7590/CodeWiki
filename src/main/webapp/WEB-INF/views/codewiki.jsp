@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
-    <title>CoderDocs - Bootstrap 4 Documentation Template For Software Projects</title>
+    <title>CodeWiki - wiki</title>
     
     <!-- Meta -->
     <meta charset="utf-8">
@@ -20,13 +20,13 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
     
     <!-- FontAwesome JS-->
-    <script defer src="resources/assets/fontawesome/js/all.min.js"></script>
+    <script defer src="../resources/assets/fontawesome/js/all.min.js"></script>
     
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css">
 
     <!-- Theme CSS -->  
-    <link id="theme-style" rel="stylesheet" href="resources/assets/css/theme.css">
+    <link id="theme-style" rel="stylesheet" href="../resources/assets/css/theme.css">
 
 </head> 
 
@@ -40,7 +40,7 @@
 	                    <span></span>
 	                    <span></span>
 	                </button>
-	                <div class="site-logo"><a class="navbar-brand" href="/codewiki/"><img class="logo-icon mr-2" src="resources/assets/images/coderdocs-logo.svg" alt="logo"><span class="logo-text">Coder<span class="text-alt">Docs</span></span></a></div>    
+	                <div class="site-logo"><a class="navbar-brand" href="/codewiki/"><img class="logo-icon mr-2" src="../resources/assets/images/coderdocs-logo.svg" alt="logo"><span class="logo-text">Code<span class="text-alt">Wiki</span></span></a></div>    
                 </div><!--//docs-logo-wrapper-->
 	            <div class="docs-top-utilities d-flex justify-content-end align-items-center">
 	                <div class="top-search-box d-none d-lg-flex">
@@ -103,7 +103,7 @@
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-1">Section Item 7.1</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-2">Section Item 7.2</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-7-3">Section Item 7.3</a></li>
-				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-8"><span class="theme-icon-holder mr-2"><i class="fas fa-book-reader"></i></span>Resources</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-8"><span class="theme-icon-holder mr-2"><i class="fas fa-book-reader"></i></span>../resources</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-8-1">Section Item 8.1</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-8-2">Section Item 8.2</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-8-3">Section Item 8.3</a></li>
@@ -256,7 +256,7 @@
 						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
 						<h5>Image Lightbox Example:</h5>
 						<figure class="figure docs-figure py-3">
-						    <a href="resources/assets/images/features/appify-theme-projects-overview-lg.jpg" data-title="Image Lightbox Example" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="resources/assets/images/features/appify-add-members.gif" alt="" style="width: 600px;"></a>
+						    <a href="../resources/assets/images/features/appify-theme-projects-overview-lg.jpg" data-title="Image Lightbox Example" data-toggle="lightbox"><img class="figure-img img-fluid shadow rounded" src="../resources/assets/images/features/appify-add-members.gif" alt="" style="width: 600px;"></a>
 						    <figcaption class="figure-caption mt-3"><i class="fas fa-info-circle mr-2"></i>Credit: the above screencast is taken from <a  class="theme-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/product/appify-bootstrap-4-admin-template-for-app-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Appify theme</a>.</figcaption>
 						</figure>
 						
@@ -586,7 +586,7 @@
 			    
 			    <article class="docs-article" id="section-8">
 				    <header class="docs-header">
-					    <h1 class="docs-heading">Resources</h1>
+					    <h1 class="docs-heading">../resources</h1>
 					    <section class="docs-intro">
 						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
 						</section><!--//docs-intro-->
@@ -671,17 +671,17 @@
    
        
     <!-- Javascript -->          
-    <script src="resources/assets/plugins/jquery-3.4.1.min.js"></script>
-    <script src="resources/assets/plugins/popper.min.js"></script>
-    <script src="resources/assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
+    <script src="../resources/assets/plugins/jquery-3.4.1.min.js"></script>
+    <script src="../resources/assets/plugins/popper.min.js"></script>
+    <script src="../resources/assets/plugins/bootstrap/js/bootstrap.min.js"></script>  
     
     
     <!-- Page Specific JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
-    <script src="resources/assets/js/highlight-custom.js"></script> 
-    <script src="resources/assets/plugins/jquery.scrollTo.min.js"></script>
-    <script src="resources/assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script> 
-    <script src="resources/assets/js/docs.js"></script> 
+    <script src="../resources/assets/js/highlight-custom.js"></script> 
+    <script src="../resources/assets/plugins/jquery.scrollTo.min.js"></script>
+    <script src="../resources/assets/plugins/lightbox/dist/ekko-lightbox.min.js"></script> 
+    <script src="../resources/assets/js/docs.js"></script> 
 
 </body>
 </html> 
