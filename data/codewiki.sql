@@ -10,7 +10,7 @@ CREATE TABLE `User` (
  `user_grade` varchar(15) NOT NULL DEFAULT 1,
  `user_token` varchar(15) NULL,
  `visit_wip` varchar(15) NOT NULL,
- `visit_date` varchar(15) NOT NULL,
+ `visit_date` varchar(15) NOT NULL
 );
 
 CREATE TABLE `Board` (
